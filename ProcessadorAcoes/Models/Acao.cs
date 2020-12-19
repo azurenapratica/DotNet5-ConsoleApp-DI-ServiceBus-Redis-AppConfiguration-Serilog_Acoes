@@ -19,5 +19,6 @@ namespace ProcessadorAcoes.Models
         }
 
         public string NomeCorretora { get; set; }
+        public DateTime Data { get; set; } = DateTime.Now;
     }
 }
